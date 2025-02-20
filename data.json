@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué es JavaScript?",
+    "answers": [
+      "Un lenguaje de marcado",
+      "Un lenguaje de programación orientado a objetos",
+      "Un lenguaje de programación interpretado",
+      "Un sistema operativo"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 2,
+    "question": "¿Cuál es la diferencia entre `var`, `let` y `const`?",
+    "answers": [
+      "`var` tiene alcance de bloque, `let` tiene alcance de función y `const` es para variables constantes",
+      "`var` tiene alcance de función, `let` tiene alcance de bloque y `const` es solo para constantes",
+      "`var` es para funciones, `let` para bloques y `const` es solo para objetos",
+      "`var` es obsoleto, `let` y `const` son equivalentes"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 3,
+    "question": "¿Qué es el hoisting en JavaScript?",
+    "answers": [
+      "La capacidad de JavaScript para crear funciones automáticamente",
+      "El proceso por el cual las declaraciones de variables y funciones son elevadas al inicio del ámbito",
+      "El proceso por el cual el código es optimizado por el navegador",
+      "El mecanismo que permite ejecutar código sin bloqueo"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 4,
+    "question": "¿Cuál es la diferencia entre `==` y `===`?",
+    "answers": [
+      "`==` compara el valor y el tipo de las variables",
+      "`===` compara solo el valor de las variables",
+      "`==` compara solo el valor, `===` compara el valor y el tipo",
+      "`==` y `===` son equivalentes"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 5,
+    "question": "¿Qué son las funciones de orden superior?",
+    "answers": [
+      "Funciones que solo pueden ser llamadas dentro de otras funciones",
+      "Funciones que toman otras funciones como argumentos o devuelven una función como resultado",
+      "Funciones que se ejecutan en un orden específico",
+      "Funciones que se ejecutan después de un evento"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 6,
+    "question": "¿Qué es un closure en JavaScript?",
+    "answers": [
+      "Una función dentro de otra función que tiene acceso a las variables de la función exterior",
+      "Una función que se ejecuta solo una vez",
+      "Una forma de evitar errores en funciones",
+      "Una función sin retorno"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "question": "¿Qué es un callback?",
+    "answers": [
+      "Una función que se llama después de que otro proceso se haya completado",
+      "Una función que se ejecuta dentro de una clase",
+      "Una función que retorna un valor",
+      "Una función que se ejecuta automáticamente"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 8,
+    "question": "¿Qué es el event loop en JavaScript?",
+    "answers": [
+      "El mecanismo que maneja las colas de eventos y las tareas asíncronas",
+      "Un bucle que se ejecuta durante el ciclo de vida de una página web",
+      "Una función que procesa eventos de usuario",
+      "Una función que se llama solo cuando se hace clic en un elemento"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 9,
+    "question": "¿Cómo funciona la propagación de eventos en JavaScript?",
+    "answers": [
+      "Los eventos no se propagan, siempre se gestionan en el lugar en que ocurren",
+      "Los eventos se propagan desde el elemento objetivo hacia el root",
+      "Los eventos se propagan desde el root hasta el elemento objetivo",
+      "Los eventos se propagan de forma aleatoria"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 10,
+    "question": "¿Qué es un `Promise` y cómo se usa?",
+    "answers": [
+      "Es una función que siempre devuelve un valor",
+      "Es un objeto que representa la eventual resolución o rechazo de una operación asíncrona",
+      "Es una variable que puede almacenar valores a futuro",
+      "Es una función sin retorno que maneja eventos"
+    ],
+    "correctAnswer": 1
+  }
+]
